@@ -21,6 +21,11 @@ const navigation = [
     current: route.name == "experience",
   },
   { name: "Projects", href: "/projects", current: route.name == "projects" },
+  {
+    name: "Achievements",
+    href: "/achievements",
+    current: route.name == "achievements",
+  },
 ];
 </script>
 
