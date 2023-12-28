@@ -32,7 +32,12 @@
 </template>
 <script>
 import ProjectTile from "~/components/ProjectTile.vue";
-import { survey, job_opening, employee_profile, leaves } from "~/public/index";
+import {
+  survey,
+  job_opening,
+  employee_profile,
+  leaves,
+} from "~/public/references";
 
 export default {
   components: {
